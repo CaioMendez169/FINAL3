@@ -1,0 +1,18 @@
+@import "../abtracts/mixin";
+@import "../abtracts/variables";
+
+header{
+    @include flex;
+    nav{
+        ul{
+            color: $color-tipografia;
+            list-style: none;
+            @include flex;
+            gap: 1rem;
+        }
+    }
+}
+footer {
+    color: #2b2b2b;
+    text-align: center;
+  }

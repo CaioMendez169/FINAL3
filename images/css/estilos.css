@@ -1,0 +1,51 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  background-color: #000000;
+}
+
+header {
+  display: flex;
+  alignt-items: center;
+}
+header nav ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  alignt-items: center;
+  gap: 1rem;
+}
+
+footer {
+  color: #2b2b2b;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tarjeta a {
+    padding: 15px 110px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tarjeta a {
+    padding: 15px 110px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
